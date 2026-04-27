@@ -1,0 +1,11 @@
+/* ── Finalist card flex layout ── */
+.finalist-card-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+/* ensure finalist avatar doesn't shrink in flex */
+.finalist-card .finalist-avatar {
+  flex-shrink: 0;
+}
