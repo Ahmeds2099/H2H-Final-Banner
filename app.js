@@ -171,7 +171,19 @@ const GUESTS = [
   },
 ];
 
-
+/**
+ * FACULTY COORDINATOR
+ */
+const FACULTY_COORDINATOR = [
+  {
+    id: 'o0',
+    name: 'Dr. Sudaroli',
+    title: 'Faculty Coordinator',
+    company: 'CSE Dept, TJIT',
+    linkedin: 'https://www.linkedin.com/in/dr-sudaroli-dhananjeyan-581444163/',
+    avatar: null,
+  }
+];
 
 /**
  * ORGANIZERS  — Hack2Hire organizing committee
@@ -693,6 +705,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Render data
   renderFinalists();
   renderPeopleGrid('guestsGrid', GUESTS, true);
+  renderPeopleGrid('facultyGrid', FACULTY_COORDINATOR, true);
   renderPeopleGrid('organizersGrid', ORGANIZERS, true);
   renderPeopleGrid('volunteersGrid', VOLUNTEERS, true);
 
