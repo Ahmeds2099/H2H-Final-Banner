@@ -211,6 +211,28 @@ const ORGANIZERS = [
   },
 ];
 
+/**
+ * VOLUNTEERS
+ */
+const VOLUNTEERS = [
+  {
+    id: 'v1',
+    name: 'Vivek',
+    title: 'Volunteer',
+    company: '4th Sem CSE',
+    linkedin: null,
+    avatar: null,
+  },
+  {
+    id: 'v2',
+    name: 'Vijisha',
+    title: 'Volunteer',
+    company: '4th Sem CSE',
+    linkedin: null,
+    avatar: null,
+  }
+];
+
 /* ─────────────────────────────────────────────────────────
    HELPERS
    ───────────────────────────────────────────────────────── */
@@ -672,6 +694,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderFinalists();
   renderPeopleGrid('guestsGrid', GUESTS, true);
   renderPeopleGrid('organizersGrid', ORGANIZERS, true);
+  renderPeopleGrid('volunteersGrid', VOLUNTEERS, true);
 
   // UI systems
   initParticles();
