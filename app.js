@@ -25,91 +25,117 @@ const FINALISTS = [
   {
     id: 'f1',
     name: 'Interrupt Error',
-    team: 'Team 48',
-    role: 'Adithya S, Sooraj R Nair, Gladson K',
+    statement: 'Impact Analysis & Automated Test Execution Tool',
+    role: 'Adithya S, Sooraj R Nair',
     tags: ['6th CSE'],
-    linkedin: 'https://www.linkedin.com/in/adithya-s-1620342a9/',
+    github: 'https://github.com/sjr27-maker/H2H-Interrupt-Error-Impact-Lens',
+    linkedins: [
+      { name: 'Adithya S', url: 'https://www.linkedin.com/in/adithya-s-1620342a9/' },
+      { name: 'Sooraj R', url: 'https://www.linkedin.com/in/soorajjr27' }
+    ],
     avatar: null,
   },
   {
     id: 'f2',
     name: 'Error202',
-    team: 'Team 24',
-    role: 'Rahul Balan',
+    statement: 'Problem Statement TBA',
+    role: 'Rahul Balan, Gladson K',
     tags: ['6th CSE'],
-    linkedin: null,
+    github: null,
+    linkedins: [],
     avatar: null,
   },
   {
     id: 'f3',
     name: 'Binary Bandits',
-    team: 'Team 22',
+    statement: 'AI-Powered Network Log Translator',
     role: 'Ayush Krishnan, Hithashree P',
     tags: ['6th IOT'],
-    linkedin: 'https://www.linkedin.com/in/hithasree-p-584383290',
+    github: 'https://github.com/Ayush75-arch/H2H-BinaryBandits-Network_Log_Translator.git',
+    linkedins: [
+      { name: 'Hithasree P', url: 'https://www.linkedin.com/in/hithasree-p-584383290' }
+    ],
     avatar: null,
   },
   {
     id: 'f4',
     name: 'Team Visions',
-    team: 'Team 37',
+    statement: 'Protocol Fuzzing & Network Resilience Tool',
     role: 'Jeevan Reddy, Sagar L',
     tags: ['4th IOT'],
-    linkedin: 'https://www.linkedin.com/in/sagar-l-575181323',
+    github: 'https://github.com/sagar-l/protocol-fuzzing-and-network-resilenece-toll.git',
+    linkedins: [
+      { name: 'Sagar L', url: 'https://www.linkedin.com/in/sagar-l-575181323' }
+    ],
     avatar: null,
   },
   {
     id: 'f5',
     name: 'Shadow Hash',
-    team: 'Team 29',
+    statement: 'Smart Customer Management Portal with AI-Driven Insights',
     role: 'Mohith Kumar, Pavan R',
     tags: ['6th CSE', '6th DS'],
-    linkedin: 'https://www.linkedin.com/in/pavan-r-244678292',
+    github: 'https://github.com/MohithKumar223/Shadow-Hash.git',
+    linkedins: [
+      { name: 'Mohith', url: 'https://www.linkedin.com/in/mohithkumar-dev/' },
+      { name: 'Pavan R', url: 'https://www.linkedin.com/in/pavan-r-244678292' }
+    ],
     avatar: null,
   },
   {
     id: 'f6',
     name: 'InnovAItors',
-    team: 'Team 23',
+    statement: 'AI-Powered Jenkins Pipeline Analyzer & Self-Healing DevOps Agent',
     role: 'Preetam Kage, Vinay Babannavar',
     tags: ['6th CSE'],
-    linkedin: null,
+    github: 'https://github.com/vinaybabannavar-create/AI-Powered-Jenkins-Pipeline-Analyzer-Self-Healing-DevOps-Agent',
+    linkedins: [],
     avatar: null,
   },
   {
     id: 'f7',
     name: 'DUAL 404',
-    team: 'Team 39',
+    statement: 'Agentic AI Ops Assistant for Kubernetes Clusters',
     role: 'Nethravathi D, Neethu Chauhan',
     tags: ['6th CSE'],
-    linkedin: 'https://www.linkedin.com/in/nethravathi-d24',
+    github: 'https://github.com/Nethravathi-24/H2H-DUAL-404---AI-Ops-KUBERNETES-AGENT',
+    linkedins: [
+      { name: 'Nethravathi', url: 'https://www.linkedin.com/in/nethravathi-d24' }
+    ],
     avatar: null,
   },
   {
     id: 'f8',
     name: 'OopsOps',
-    team: 'Team 21',
+    statement: 'Intelligent Network Topology Discovery & Anomaly Detection',
     role: 'Jeswin M, Avikrit Chhetri',
     tags: ['6th IOT'],
-    linkedin: null,
+    github: 'https://github.com/avi2004-cpu/H2H-OopsOps-INS_System.git',
+    linkedins: [],
     avatar: null,
   },
   {
     id: 'f9',
     name: 'Latency Legends',
-    team: 'Team 32',
+    statement: 'Agentic AI Ops Assistant for Kubernetes Clusters',
     role: 'Panyam Siva, Siva mallesh',
     tags: ['6th CSE'],
-    linkedin: 'https://www.linkedin.com/in/siva-panyam-587268290',
+    github: 'https://github.com/SivaPanyam/H2H-Latency-Legends-KubeAssist.git',
+    linkedins: [
+      { name: 'Siva Panyam', url: 'https://www.linkedin.com/in/siva-panyam-587268290' }
+    ],
     avatar: null,
   },
   {
     id: 'f10',
     name: 'CryptoKnights',
-    team: 'Team 40',
+    statement: 'Agentic AI Ops Assistant for Kubernetes Clusters',
     role: 'Harsha C, Manoj Kumar C',
     tags: ['6th CSE'],
-    linkedin: 'https://in.linkedin.com/in/harsha-c14920',
+    github: 'https://github.com/Mr-hars007/H2H-CryptoKnights-AI-K8s-Agent',
+    linkedins: [
+      { name: 'Harsha C', url: 'https://in.linkedin.com/in/harsha-c14920' }
+    ],
     avatar: null,
   },
 ];
@@ -145,27 +171,7 @@ const GUESTS = [
   },
 ];
 
-/**
- * NILE SECURE TEAM  — Representatives from Nile Secure
- */
-const NILE_TEAM = [
-  {
-    id: 'n1',
-    name: 'Nile Secure Rep TBA',
-    title: 'Co-Founder & CEO',
-    company: 'Nile Secure',
-    linkedin: null,
-    avatar: null,
-  },
-  {
-    id: 'n2',
-    name: 'Nile Secure Rep TBA',
-    title: 'Head of Cybersecurity',
-    company: 'Nile Secure',
-    linkedin: null,
-    avatar: null,
-  },
-];
+
 
 /**
  * ORGANIZERS  — Hack2Hire organizing committee
@@ -241,6 +247,28 @@ function buildLinkedInBtn(url, isCyan = false) {
   return a;
 }
 
+/** Builds a GitHub button element */
+function buildGitHubBtn(url) {
+  const a = document.createElement('a');
+  const ghSVG = `<svg class="li-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+  </svg>`;
+
+  if (url) {
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.className = 'li-btn cyan-li';
+    a.innerHTML = `${ghSVG} Repository`;
+  } else {
+    a.href = '#';
+    a.className = 'li-btn placeholder-li cyan-li';
+    a.setAttribute('aria-disabled', 'true');
+    a.innerHTML = `${ghSVG} Code TBA`;
+  }
+  return a;
+}
+
 /* ─────────────────────────────────────────────────────────
    RENDER — FINALISTS
    ───────────────────────────────────────────────────────── */
@@ -288,7 +316,11 @@ function renderFinalists() {
 
     const team = document.createElement('div');
     team.className = 'finalist-team';
-    team.textContent = f.team;
+    if (f.statement) {
+      team.textContent = f.statement;
+    } else {
+      team.textContent = 'Problem Statement TBA';
+    }
 
     const role = document.createElement('div');
     role.className = 'finalist-role';
@@ -304,7 +336,26 @@ function renderFinalists() {
       tagsWrap.appendChild(tag);
     });
 
-    info.append(name, team, role, tagsWrap, buildLinkedInBtn(f.linkedin, true));
+    // Links
+    const linksWrap = document.createElement('div');
+    linksWrap.className = 'finalist-links';
+    linksWrap.style.display = 'flex';
+    linksWrap.style.flexWrap = 'wrap';
+    linksWrap.style.gap = '8px';
+
+    if (f.github) {
+      linksWrap.appendChild(buildGitHubBtn(f.github));
+    }
+    
+    if (f.linkedins && f.linkedins.length > 0) {
+      f.linkedins.forEach(link => {
+        const btn = buildLinkedInBtn(link.url, true);
+        btn.innerHTML = btn.innerHTML.replace('Connect on LinkedIn', link.name);
+        linksWrap.appendChild(btn);
+      });
+    }
+
+    info.append(name, team, role, tagsWrap, linksWrap);
     body.append(avatar, info);
     card.append(rank, body);
     grid.appendChild(card);
@@ -622,7 +673,6 @@ function initSectionGlow() {
 document.addEventListener('DOMContentLoaded', () => {
   // Render data
   renderFinalists();
-  renderPeopleGrid('nileGrid', NILE_TEAM, true);
   renderPeopleGrid('guestsGrid', GUESTS, true);
   renderPeopleGrid('organizersGrid', ORGANIZERS, true);
 
