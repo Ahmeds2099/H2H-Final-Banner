@@ -80,17 +80,30 @@ body {
   justify-content: space-between;
 }
 
-.logo {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--cyan);
-  text-decoration: none;
-  letter-spacing: 3px;
-  text-shadow: 0 0 20px var(--cyan);
-  transition: text-shadow 0.3s;
+.header-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  transition: filter 0.3s, transform 0.3s;
 }
-.logo:hover { text-shadow: 0 0 40px var(--cyan), 0 0 80px var(--cyan); }
+.left-logo {
+  filter: drop-shadow(0 0 10px rgba(0, 245, 255, 0.4));
+}
+.left-logo:hover {
+  filter: drop-shadow(0 0 20px rgba(0, 245, 255, 0.8));
+  transform: scale(1.05);
+}
+.right-logo {
+  border-radius: 4px;
+}
+.right-logo:hover {
+  transform: scale(1.05);
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .nav { display: flex; gap: 32px; }
 .nav-link {
