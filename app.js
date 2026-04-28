@@ -11,105 +11,105 @@
 
 /**
  * FINALISTS  (10 teams)
- * Each object represents one team member shown on a card.
+ * Each object represents one team shown on a card.
  * Fields:
  *   id        – unique key
- *   name      – full name
- *   team      – team name
- *   role      – participant role / description
- *   tags      – tech stack tags (array, max 4)
+ *   name      – project/team name
+ *   team      – team identifier
+ *   role      – participant names
+ *   tags      – branch/semester tags
  *   linkedin  – LinkedIn profile URL (null → shows "Coming Soon")
  *   avatar    – image URL or null (initials shown as fallback)
  */
 const FINALISTS = [
   {
     id: 'f1',
-    name: 'Finalist TBA',
-    team: 'Team Alpha',
-    role: 'Full-Stack Developer',
-    tags: ['React', 'Node.js', 'MongoDB'],
-    linkedin: null,
+    name: 'Interrupt Error',
+    team: 'Team 48',
+    role: 'Adithya S, Sooraj R Nair, Gladson K',
+    tags: ['6th CSE'],
+    linkedin: 'https://www.linkedin.com/in/adithya-s-1620342a9/',
     avatar: null,
   },
   {
     id: 'f2',
-    name: 'Finalist TBA',
-    team: 'Team Beta',
-    role: 'AI / ML Engineer',
-    tags: ['Python', 'TensorFlow', 'FastAPI'],
+    name: 'Error202',
+    team: 'Team 24',
+    role: 'Rahul Balan',
+    tags: ['6th CSE'],
     linkedin: null,
     avatar: null,
   },
   {
     id: 'f3',
-    name: 'Finalist TBA',
-    team: 'Team Gamma',
-    role: 'Backend Developer',
-    tags: ['Go', 'PostgreSQL', 'Docker'],
-    linkedin: null,
+    name: 'Binary Bandits',
+    team: 'Team 22',
+    role: 'Ayush Krishnan, Hithashree P',
+    tags: ['6th IOT'],
+    linkedin: 'https://www.linkedin.com/in/hithasree-p-584383290',
     avatar: null,
   },
   {
     id: 'f4',
-    name: 'Finalist TBA',
-    team: 'Team Delta',
-    role: 'Cloud & DevOps',
-    tags: ['AWS', 'Kubernetes', 'Terraform'],
-    linkedin: null,
+    name: 'Team Visions',
+    team: 'Team 37',
+    role: 'Jeevan Reddy, Sagar L',
+    tags: ['4th IOT'],
+    linkedin: 'https://www.linkedin.com/in/sagar-l-575181323',
     avatar: null,
   },
   {
     id: 'f5',
-    name: 'Finalist TBA',
-    team: 'Team Epsilon',
-    role: 'Mobile Developer',
-    tags: ['Flutter', 'Firebase', 'Dart'],
-    linkedin: null,
+    name: 'Shadow Hash',
+    team: 'Team 29',
+    role: 'Mohith Kumar, Pavan R',
+    tags: ['6th CSE', '6th DS'],
+    linkedin: 'https://www.linkedin.com/in/pavan-r-244678292',
     avatar: null,
   },
   {
     id: 'f6',
-    name: 'Finalist TBA',
-    team: 'Team Zeta',
-    role: 'Cybersecurity Specialist',
-    tags: ['Python', 'Wireshark', 'Linux'],
+    name: 'InnovAItors',
+    team: 'Team 23',
+    role: 'Preetam Kage, Vinay Babannavar',
+    tags: ['6th CSE'],
     linkedin: null,
     avatar: null,
   },
   {
     id: 'f7',
-    name: 'Finalist TBA',
-    team: 'Team Eta',
-    role: 'Data Engineer',
-    tags: ['Spark', 'Kafka', 'Airflow'],
-    linkedin: null,
+    name: 'DUAL 404',
+    team: 'Team 39',
+    role: 'Nethravathi D, Neethu Chauhan',
+    tags: ['6th CSE'],
+    linkedin: 'https://www.linkedin.com/in/nethravathi-d24',
     avatar: null,
   },
   {
     id: 'f8',
-    name: 'Finalist TBA',
-    team: 'Team Theta',
-    role: 'Frontend Developer',
-    tags: ['Vue.js', 'TypeScript', 'GraphQL'],
+    name: 'OopsOps',
+    team: 'Team 21',
+    role: 'Jeswin M, Avikrit Chhetri',
+    tags: ['6th IOT'],
     linkedin: null,
     avatar: null,
   },
   {
     id: 'f9',
-    name: 'Finalist TBA',
-    team: 'Team Iota',
-    role: 'Blockchain Developer',
-    tags: ['Solidity', 'Web3.js', 'Ethereum'],
-    linkedin: null,
+    name: 'Latency Legends',
+    team: 'Team 32',
+    role: 'Panyam Siva, Siva mallesh',
+    tags: ['6th CSE'],
+    linkedin: 'https://www.linkedin.com/in/siva-panyam-587268290',
     avatar: null,
   },
   {
     id: 'f10',
-    name: 'Finalist TBA',
-    team: 'Team Kappa',
-    role: 'IoT & Embedded Systems',
-    tags: ['Arduino', 'MQTT', 'C++'],
-    linkedin: null,
+    name: 'CryptoKnights',
+    team: 'Team 40',
+    role: 'Harsha C, Manoj Kumar C',
+    tags: ['6th CSE'],
+    linkedin: 'https://in.linkedin.com/in/harsha-c14920',
     avatar: null,
   },
 ];
@@ -121,34 +121,26 @@ const FINALISTS = [
 const GUESTS = [
   {
     id: 'g1',
-    name: 'Guest TBA',
-    title: 'Chief Technology Officer',
-    company: 'Industry Partner',
-    linkedin: null,
+    name: 'Surendra Kumar Viswanathan',
+    title: 'Guest / Judge',
+    company: 'Nile Secure',
+    linkedin: 'https://www.linkedin.com/in/surendra-kumar-viswanathan-9338428',
     avatar: null,
   },
   {
     id: 'g2',
-    name: 'Guest TBA',
-    title: 'Senior Engineering Manager',
-    company: 'Tech Company',
-    linkedin: null,
+    name: 'Devendra Mukharaiya',
+    title: 'Guest / Judge',
+    company: 'Nile Secure',
+    linkedin: 'https://www.linkedin.com/in/devendra-mukharaiya-41293366',
     avatar: null,
   },
   {
     id: 'g3',
-    name: 'Guest TBA',
-    title: 'Principal Product Manager',
-    company: 'Startup Ecosystem',
-    linkedin: null,
-    avatar: null,
-  },
-  {
-    id: 'g4',
-    name: 'Guest TBA',
-    title: 'Venture Partner',
-    company: 'VC Firm',
-    linkedin: null,
+    name: 'Sriharsh',
+    title: 'Guest / Judge',
+    company: 'Nile Secure',
+    linkedin: 'https://www.linkedin.com/in/sriharsh/',
     avatar: null,
   },
 ];
@@ -180,51 +172,35 @@ const NILE_TEAM = [
  */
 const ORGANIZERS = [
   {
-    id: 'o0',
-    name: 'Dr. Suma R',
-    title: 'HOD of CSE Department',
-    company: 'CSE Dept, TJIT',
-    linkedin: null,
-    avatar: null,
-  },
-  {
-    id: 'o00',
-    name: 'Dr. Sudaroli',
-    title: 'Faculty Coordinator',
-    company: 'CSE Dept, TJIT',
-    linkedin: 'https://www.linkedin.com/in/dr-sudaroli-dhananjeyan-581444163/',
-    avatar: null,
-  },
-  {
     id: 'o1',
-    name: 'Gomathi D',
-    title: 'Student Organizer',
-    company: '📞 8618474453',
-    linkedin: 'https://www.linkedin.com/in/gomathi-dhandapani-47435b350',
-    avatar: null,
-  },
-  {
-    id: 'o2',
     name: 'G. Surya',
-    title: 'Student Organizer',
+    title: 'Operations Lead',
     company: '📞 8667234480',
     linkedin: 'https://www.linkedin.com/in/g-surya-63a01b290',
     avatar: null,
   },
   {
+    id: 'o2',
+    name: 'Gomathi D',
+    title: 'Event Lead',
+    company: '📞 8618474453',
+    linkedin: 'https://www.linkedin.com/in/gomathi-dhandapani-47435b350',
+    avatar: null,
+  },
+  {
     id: 'o3',
-    name: 'Ahmed Sufiyan',
-    title: 'Student Organizer',
-    company: '📞 7483368337',
-    linkedin: 'https://www.linkedin.com/in/ahmedsufiyan209/',
+    name: 'Yashaswini C',
+    title: 'Design Lead',
+    company: '📞 7338144731',
+    linkedin: 'https://www.linkedin.com/in/yashaswini-c-02b97235a/',
     avatar: null,
   },
   {
     id: 'o4',
-    name: 'Yashaswini C',
-    title: 'Student Organizer',
-    company: '📞 7338144731',
-    linkedin: 'https://www.linkedin.com/in/yashaswini-c-02b97235a/',
+    name: 'Ahmed Sufiyan',
+    title: 'Tech Lead',
+    company: '📞 7483368337',
+    linkedin: 'https://www.linkedin.com/in/ahmedsufiyan209/',
     avatar: null,
   },
 ];
@@ -647,6 +623,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Render data
   renderFinalists();
   renderPeopleGrid('nileGrid', NILE_TEAM, true);
+  renderPeopleGrid('guestsGrid', GUESTS, true);
   renderPeopleGrid('organizersGrid', ORGANIZERS, true);
 
   // UI systems
