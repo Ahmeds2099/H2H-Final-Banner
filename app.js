@@ -38,10 +38,10 @@ const FINALISTS = [
   {
     id: 'f2',
     name: 'Error202',
-    statement: 'Problem Statement TBA',
+    statement: 'Intelligent Network Topology Discovery & Anomaly Detection',
     role: 'Rahul Balan, Gladson K',
     tags: ['6th CSE'],
-    github: null,
+    github: 'https://github.com/Gladson-git/H2H-Error202-NetGraphIQ',
     linkedins: [],
     avatar: null,
   },
@@ -339,9 +339,6 @@ function renderFinalists() {
     // Links
     const linksWrap = document.createElement('div');
     linksWrap.className = 'finalist-links';
-    linksWrap.style.display = 'flex';
-    linksWrap.style.flexWrap = 'wrap';
-    linksWrap.style.gap = '8px';
 
     if (f.github) {
       linksWrap.appendChild(buildGitHubBtn(f.github));

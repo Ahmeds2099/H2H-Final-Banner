@@ -451,6 +451,19 @@ body {
   padding: 3px 8px;
 }
 
+.finalist-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.finalist-links .li-btn {
+  flex: 1 1 calc(50% - 4px);
+  justify-content: center;
+  padding: 8px 10px;
+  font-size: 0.65rem;
+  min-width: 120px;
+}
+
 /* ─── PEOPLE GRID (Guests / Organizers / Nile) ─── */
 .people-grid {
   display: grid;
